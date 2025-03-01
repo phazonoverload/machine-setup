@@ -35,7 +35,7 @@ cat ~/.ssh/id_rsa.pub
 open -a Safari https://github.com/settings/keys
 read -p "Add public key to GitHub and hit [Enter]."
 
-# Install software
+# Install software with homebrew
 echo "Installing software via brew"
 brew install homebrew/cask
 taps=(
@@ -73,6 +73,13 @@ casks=(
 brew install --cask ${casks[@]}
 brew cleanup
 
+# Install apps via Mac App Store
+mas install 1569813296 # 1Password for Safari
+mas install 682658836 # GarageBand
+mas install 409201541 # Pages
+mas install 409203825 # Numbers
+mas install 361285480 # Keynote
+mas install 6475002485 # Reeder
 
 # Installing Node
 echo "Installing Node via Volta"
@@ -93,7 +100,7 @@ read -p "Please add zsh-autosuggestions & zsh-syntax-highlighting to your Plugin
 chsh -s /usr/local/bin/zshd
 
 # Configure Mac Settings
-echo "Setting Mac Settings"
+echo "Configure Mac Settings"
 # Dock
 defaults write com.apple.dock "orientation" -string "right"
 defaults write com.apple.dock "tilesize" -int "24"
