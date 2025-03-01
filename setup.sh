@@ -60,6 +60,7 @@ casks=(
   google-chrome
   raycast
   screenflow
+  slack
   todoist
   vanilla
   visual-studio-code
