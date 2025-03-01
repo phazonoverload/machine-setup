@@ -115,6 +115,8 @@ killall Finder
 defaults write com.apple.menuextra.clock "DateFormat" -string "\"HH:mm\""
 # Mission Control
 defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock
+# Window Manager
+defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false && killall WindowManager
 # Power
 defaults write com.apple.screensaver idleTime 0
 
