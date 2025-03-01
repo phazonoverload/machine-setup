@@ -41,6 +41,7 @@ brew install homebrew/cask
 taps=(
   gh
   wget
+  mas
 )
 brew install ${taps[@]}
 casks=(
@@ -71,6 +72,7 @@ casks=(
 )
 brew install --cask ${casks[@]}
 brew cleanup
+
 
 # Installing Node
 echo "Installing Node via Volta"
