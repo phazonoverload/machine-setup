@@ -60,11 +60,13 @@ casks=(
   google-chrome
   raycast
   screenflow
+  signal
   slack
   todoist
   vanilla
   visual-studio-code
   visual-studio-code@insiders
+  whatsapp
   zoom
 )
 brew install --cask ${casks[@]}
