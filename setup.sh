@@ -50,6 +50,7 @@ casks=(
   camo-studio
   cleanshot
   cyberduck
+  cyberghost-vpn
   discord
   elgato-camera-hub
   elgato-control-center
