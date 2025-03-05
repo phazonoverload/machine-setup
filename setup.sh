@@ -59,6 +59,7 @@ casks=(
   firefox
   font-geist-mono
   google-chrome
+  numi
   raycast
   screenflow
   signal
