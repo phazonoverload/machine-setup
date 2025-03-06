@@ -42,6 +42,8 @@ taps=(
   gh
   wget
   mas
+  yt-dlp
+  ffmpeg
 )
 brew install ${taps[@]}
 casks=(
