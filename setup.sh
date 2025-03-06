@@ -38,14 +38,14 @@ read -p "Add public key to GitHub and hit [Enter]."
 # Install software with homebrew
 echo "Installing software via brew"
 brew install homebrew/cask
-taps=(
+formulae=(
   gh
   wget
   mas
   yt-dlp
   ffmpeg
 )
-brew install ${taps[@]}
+brew install ${formulae[@]}
 casks=(
   1password
   arc
