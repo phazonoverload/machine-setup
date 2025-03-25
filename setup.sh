@@ -62,6 +62,7 @@ casks=(
   font-geist-mono
   google-chrome
   numi
+  orbstack
   raycast
   screenflow
   signal
