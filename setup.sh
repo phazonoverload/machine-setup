@@ -64,6 +64,7 @@ casks=(
   numi
   orbstack
   raycast
+  reflect
   screenflow
   signal
   slack
