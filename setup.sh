@@ -39,6 +39,7 @@ read -p "Add public key to GitHub and hit [Enter]."
 echo "Installing software via brew"
 brew install homebrew/cask
 formulae=(
+  1password-cli
   gh
   wget
   mas
