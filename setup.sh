@@ -67,6 +67,7 @@ casks=(
   raycast
   reflect
   screenflow
+  screen-studio
   signal
   slack
   todoist
