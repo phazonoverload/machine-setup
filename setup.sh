@@ -45,6 +45,7 @@ formulae=(
   mas
   yt-dlp
   ffmpeg
+  httpie
 )
 brew install ${formulae[@]}
 casks=(
