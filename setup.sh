@@ -52,7 +52,6 @@ casks=(
   1password
   arc
   caffeine
-  camo-studio
   cleanshot
   cyberduck
   cyberghost-vpn
@@ -63,6 +62,7 @@ casks=(
   firefox
   font-geist-mono
   google-chrome
+  hyper
   numi
   orbstack
   raycast
