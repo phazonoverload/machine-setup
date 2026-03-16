@@ -44,6 +44,7 @@ formulae=(
   wget
   mas
   yt-dlp
+  tailscale
   ffmpeg
   httpie
 )
