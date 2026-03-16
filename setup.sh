@@ -49,6 +49,7 @@ formulae=(
   httpie
   apify-cli
   anomalyco/tap/opencode
+  sinelaw/fresh/fresh-editor
 )
 brew install ${formulae[@]}
 casks=(
