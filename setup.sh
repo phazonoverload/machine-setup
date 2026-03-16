@@ -48,6 +48,7 @@ formulae=(
   ffmpeg
   httpie
   apify-cli
+  anomalyco/tap/opencode
 )
 brew install ${formulae[@]}
 casks=(
