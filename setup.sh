@@ -55,6 +55,7 @@ casks=(
   arc
   beeper
   caffeine
+  claude
   cleanshot
   cyberduck
   cyberghost-vpn
