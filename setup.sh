@@ -47,6 +47,7 @@ formulae=(
   tailscale
   ffmpeg
   httpie
+  apify-cli
 )
 brew install ${formulae[@]}
 casks=(
