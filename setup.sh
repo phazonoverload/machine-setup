@@ -52,6 +52,7 @@ brew install ${formulae[@]}
 casks=(
   1password
   arc
+  beeper
   caffeine
   cleanshot
   cyberduck
